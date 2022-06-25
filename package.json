@@ -1,0 +1,29 @@
+{
+  "name": "husky-git-hooks",
+  "version": "0.2.0",
+  "description": "Configured husky hooks for using \"from the box\"",
+  "bin": "lib/bin.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foboss6/husky-hooks.git"
+  },
+  "keywords": [],
+  "author": "Foboss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foboss6/husky-hooks/issues"
+  },
+  "homepage": "https://github.com/Foboss6/husky-hooks#readme",
+  "dependencies": {
+    "husky": "^8.0.1"
+  }
+}

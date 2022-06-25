@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+node "$(dirname "$0")/check-branch-name.js"
+node "$(dirname "$0")/check-last-commit.js"
