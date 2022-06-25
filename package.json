@@ -1,6 +1,6 @@
 {
     "name": "husky-git-hooks",
-    "version": "0.6.0",
+    "version": "0.8.0",
     "description": "Configured husky hooks for using \"from the box\"",
     "bin": "lib/bin.js",
     "main": "lib/index.js",
@@ -15,7 +15,11 @@
         "type": "git",
         "url": "git+https://github.com/Foboss6/husky-hooks.git"
     },
-    "keywords": [],
+    "keywords": [
+        "git",
+        "hooks",
+        "pre-commit"
+    ],
     "author": "Foboss",
     "license": "ISC",
     "bugs": {
@@ -23,7 +27,7 @@
     },
     "homepage": "https://github.com/Foboss6/husky-hooks#readme",
     "dependencies": {
-        "husky": "^8.0.1",
-        "lint-staged": "^13.0.3"
+        "husky": "8.0.1",
+        "lint-staged": "13.0.3"
     }
 }
