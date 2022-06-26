@@ -1,6 +1,6 @@
 {
     "name": "husky-git-hooks",
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "Configured husky hooks for using \"from the box\"",
     "bin": "lib/bin.js",
     "main": "lib/index.js",
@@ -21,7 +21,7 @@
         "pre-commit"
     ],
     "author": "Foboss",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/Foboss6/husky-hooks/issues"
     },
