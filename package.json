@@ -1,6 +1,6 @@
 {
     "name": "husky-git-hooks",
-    "version": "0.9.0",
+    "version": "0.1.0",
     "description": "Configured husky hooks for using \"from the box\"",
     "bin": "lib/bin.js",
     "main": "lib/index.js",
