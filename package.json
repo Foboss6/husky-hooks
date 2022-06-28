@@ -1,6 +1,6 @@
 {
-    "name": "husky-git-hooks",
-    "version": "0.1.0",
+    "name": "git-hooks-husky",
+    "version": "0.1.2",
     "description": "Configured husky hooks for using \"from the box\"",
     "bin": "lib/bin.js",
     "main": "lib/index.js",
@@ -18,7 +18,10 @@
     "keywords": [
         "git",
         "hooks",
-        "pre-commit"
+        "pre-commit",
+        "commit-msg",
+        "pre-push",
+        "post-merge"
     ],
     "author": "Foboss",
     "license": "MIT",

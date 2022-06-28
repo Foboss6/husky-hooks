@@ -1,17 +1,17 @@
-# husky-git-hooks
+# git-hooks-husky
 
 Configured husky hooks for using "from the box"
 
 # Install
 
 ```sh
-npm i husky-git-hooks --save-dev
+npm i git-hooks-husky --save-dev
 ```
 
 or
 
 ```sh
-yarn add -D husky-git-hooks
+yarn add -D git-hooks-husky
 ```
 
 # Usage
@@ -19,13 +19,13 @@ yarn add -D husky-git-hooks
 After installing the package, use commands bellow to configure husky git hooks:
 
 ```sh
-npx husky-git-hooks install
+npx git-hooks-husky install
 ```
 
 or
 
 ```sh
-yarn husky-git-hooks install
+yarn git-hooks-husky install
 ```
 
 After this you will have already configured git hooks in `./.husky` folder.
